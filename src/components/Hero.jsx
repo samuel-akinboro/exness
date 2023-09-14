@@ -5,10 +5,10 @@ import Image from 'next/image'
 const Hero = () => {
   return (
     <div className='h-[calc(92vh-56px)] relative md:h-[calc(92vh-76px)]'>
-      <div className='h-full md:flex'>
+      <div className='h-full md:flex lg:w-[92.5%] lg:mx-auto'>
         <div className='text-white flex-col flex h-full px-4 z-10 relative pb-8 md:flex-1 md:pl-12 md:justify-center'>
           <div className="flex-1 flex flex-col justify-center text-center md:text-left md:flex-initial">
-            <h1 className='text-4xl leading-[47px] md:text-[3.3rem] md:leading-[73px] md:font-medium'>Online trading with<br />better-than-market<br />conditions</h1>
+            <h1 className='text-4xl leading-[47px] md:text-[3.3rem] md:leading-[73px] md:font-semibold'>Online trading with<br />better-than-market<br />conditions</h1>
             <p className='text-lg mt-5 md:w-3/5 md:mt-8'>
               Trade across multiple markets with the most stable and reliable pricing in the industry.
             </p>

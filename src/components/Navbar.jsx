@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 const Navbar = () => {
   return (
-    <div>
+    <div className='sticky top-0 z-40'>
       {/* Mobile bar */}
       <div className="bg-primary h-[56px] flex items-center justify-between px-4 lg:hidden sticky top-0">
         <svg className="h-5 w-5" focusable="false" aria-hidden="true" viewBox="0 0 20 20" fill="#fff" xmlns="http://www.w3.org/2000/svg">
@@ -30,7 +30,7 @@ const Navbar = () => {
           <a href="#" target="_blank" className="py-3 px-4 inline-flex justify-center items-center gap-2 rounded-md border border-transparent font-medium bg-secondary text-black hover:bg-[#FFD938] transition-all duration-400">
             Open account
           </a>
-          <a href="#" target="_blank" className="py-3 px-4 inline-flex justify-center items-center gap-2 rounded-md border-transparent border-secondary border-[0.5px] text-secondary hover:bg-[#2D2D20] transition-all duration-400 min-w-[145px] font-medium">
+          <a href="#" target="_blank" className="py-3 px-4 inline-flex justify-center items-center gap-2 rounded-md border-secondary border-[0.5px] text-secondary hover:bg-[#2D2D20] transition-all duration-400 min-w-[145px] font-medium">
             Sign in
           </a>
         </div>
