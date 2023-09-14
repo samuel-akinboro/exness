@@ -27,10 +27,10 @@ const Navbar = () => {
           </span>
         </div>
         <div className='flex items-center gap-x-4'>
-          <a href="#" target="_blank" class="py-3 px-4 inline-flex justify-center items-center gap-2 rounded-md border border-transparent font-medium bg-secondary text-black hover:bg-[#FFD938] transition-all duration-400">
+          <a href="#" target="_blank" className="py-3 px-4 inline-flex justify-center items-center gap-2 rounded-md border border-transparent font-medium bg-secondary text-black hover:bg-[#FFD938] transition-all duration-400">
             Open account
           </a>
-          <a href="#" target="_blank" class="py-3 px-4 inline-flex justify-center items-center gap-2 rounded-md border-transparent border-secondary border-[0.5px] text-secondary hover:bg-[#2D2D20] transition-all duration-400 min-w-[145px] font-medium">
+          <a href="#" target="_blank" className="py-3 px-4 inline-flex justify-center items-center gap-2 rounded-md border-transparent border-secondary border-[0.5px] text-secondary hover:bg-[#2D2D20] transition-all duration-400 min-w-[145px] font-medium">
             Sign in
           </a>
         </div>
