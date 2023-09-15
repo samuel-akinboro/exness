@@ -20,7 +20,7 @@ export default function Home() {
       <Services />
       <Trade />
       <Accounts />
-      {/* <Metrics /> */}
+      <Metrics />
     </main>
   )
 }
