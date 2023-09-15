@@ -8,9 +8,9 @@ import masterCardImage from '@/assests/images/mastercard.svg'
 const Services = () => {
   return (
     <div className='text-white'>
-      <div className='bg-primary p-4 py-7 text-center sm:px-14 md:py-24'>
+      <div className='bg-primary p-4 py-7 text-center sm:px-14 md:py-16 lg:py-24'>
         <div>
-          <h2 className='text-[1.65rem] font-medium md:text-4xl'>Instant withdrawals, 24/7</h2>
+          <h2 className='text-[1.65rem] font-medium md:text-3xl lg:text-4xl'>Instant withdrawals, 24/7</h2>
           <p className='font-light mt-4 mb-6 text-[0.94rem] md:text-base lg:w-[46%] md:mx-auto md:mb-10'>Our withdrawals are carried out in seconds with no manual processing, including on weekends.</p>
           <a href="#" className='text-secondary hover:underline text-[0.94rem] font-light md:text-base'>Learn more about deposits & withdrawals at Exness</a>
           <div className='grid grid-cols-2 gap-4 justify-center mt-8 sm:flex sm:items-center md:gap-7 lg:gap-8 md:mt-12'>
