@@ -28,19 +28,19 @@ const Accounts = () => {
             <div className='flex items-center gap-6 my-5 lg:mt-12 lg:mb-8'>
               <div className="group relative">
                 <h4 className='border-dashed border-black border-b w-fit font-medium md:text-xl lg:text-2xl'>Raw Spread</h4>
-                <span className="opacity-0 group-hover:visible group-hover:opacity-100 transition-opacity inline-block absolute invisible z-10 p-4 bg-white text-sm text-black rounded-md shadow-sm w-max top-10 max-w-[90vw] lg:max-w-[300px] lg:mt-4" role="tooltip">
+                <span className="opacity-0 group-hover:visible group-hover:opacity-100 transition-opacity inline-block absolute invisible z-10 p-4 bg-white text-sm text-black rounded-md shadow-sm w-max top-10 max-w-[83vw] lg:max-w-[300px] lg:mt-4" role="tooltip">
                   Lowest spreads with fixed commission per lot. Market execution.
                 </span>
               </div>
               <div className="group relative">
                 <h4 className='font-medium border-dashed border-black border-b w-fit md:text-xl lg:text-2xl'>Zero</h4>
-                <span className="opacity-0 group-hover:visible group-hover:opacity-100 transition-opacity inline-block absolute invisible z-10 p-4 bg-white text-sm text-black rounded-md shadow-sm w-max max-w-[65vw] top-10 lg:max-w-[300px] lg:mt-4" role="tooltip">
+                <span className="opacity-0 group-hover:visible group-hover:opacity-100 transition-opacity inline-block absolute invisible z-10 p-4 bg-white text-sm text-black rounded-md shadow-sm w-max max-w-[60vw] top-10 lg:max-w-[300px] lg:mt-4" role="tooltip">
                   Zero spread on the top 30 instruments. Market execution, no requotes.
                 </span>
               </div>
               <div className="group relative">
                 <h4 className='font-medium border-dashed border-black border-b w-fit md:text-xl lg:text-2xl'>Pro</h4>
-                <span className="opacity-0 group-hover:visible group-hover:opacity-100 transition-opacity inline-block absolute invisible z-10 p-4 bg-white text-sm text-black rounded-md shadow-sm w-max max-w-[65vw] top-10 lg:max-w-[300px] lg:mt-4" role="tooltip">
+                <span className="opacity-0 group-hover:block group-hover:opacity-100 transition-opacity absolute hidden z-10 p-4 bg-white text-sm text-black rounded-md shadow-sm w-[50vw] max-w-[65vw] top-10 lg:max-w-[300px] lg:mt-4" role="tooltip">
                   Our instant execution account, with zero commission & low spread.
                 </span>
               </div>

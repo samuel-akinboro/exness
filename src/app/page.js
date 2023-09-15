@@ -2,6 +2,7 @@
 
 import Accounts from '@/components/Accounts'
 import Hero from '@/components/Hero'
+import Metrics from '@/components/Metrics'
 import Navbar from '@/components/Navbar'
 import Services from '@/components/Services'
 import Trade from '@/components/Trade'
@@ -19,6 +20,7 @@ export default function Home() {
       <Services />
       <Trade />
       <Accounts />
+      {/* <Metrics /> */}
     </main>
   )
 }
