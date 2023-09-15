@@ -2,6 +2,7 @@
 
 import About from '@/components/About'
 import Accounts from '@/components/Accounts'
+import Footer from '@/components/Footer'
 import Hero from '@/components/Hero'
 import Metrics from '@/components/Metrics'
 import Navbar from '@/components/Navbar'
@@ -25,6 +26,7 @@ export default function Home() {
       <Metrics />
       <Ready />
       <About />
+      <Footer />
     </main>
   )
 }
