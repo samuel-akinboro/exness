@@ -1,5 +1,6 @@
 'use client'
 
+import About from '@/components/About'
 import Accounts from '@/components/Accounts'
 import Hero from '@/components/Hero'
 import Metrics from '@/components/Metrics'
@@ -23,6 +24,7 @@ export default function Home() {
       <Accounts />
       <Metrics />
       <Ready />
+      <About />
     </main>
   )
 }
