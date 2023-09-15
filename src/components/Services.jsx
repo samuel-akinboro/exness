@@ -25,18 +25,18 @@ const Services = () => {
           </div>
         </div>
       </div>
-      <div className='h-48 flex md:h-[225px]'>
-        <div className='flex flex-col h-full bg-gray1 p-4 flex-1 md:p-16 md:py-12'>
+      <div className='h-48 flex md:h-[225px] lg:h-[313px]'>
+        <div className='flex flex-col h-full bg-gray1 p-4 flex-1 md:p-16 md:py-12 lg:pl-24 lg:py-[4.5rem]'>
           <div className='flex-1'>
-            <h3 className='text-xl font-light md:text-[1.40rem] md:font-medium'>Fast & reliable execution</h3>
-            <p className='font-extralight mt-2 md:font-light'>With free VPS hosting</p>
+            <h3 className='text-xl font-light md:text-[1.40rem] md:font-medium lg:text-[1.8rem]'>Fast & reliable execution</h3>
+            <p className='font-extralight mt-2 md:font-light lg:mt-8'>With free VPS hosting</p>
           </div>
           <a href="#" className='text-secondary hover:underline font-extralight md:font-light'>See VPS details</a>
         </div>
-        <div className='flex flex-col h-full bg-gray2 p-4 flex-1 md:px-14 md:py-12'>
+        <div className='flex flex-col h-full bg-gray2 p-4 flex-1 md:px-14 md:py-12 lg:pl-24 lg:py-[4.5rem]'>
           <div className='flex-1'>
-            <h3 className='text-xl font-light md:text-[1.40rem] md:font-medium'>Transparent price history</h3>
-            <p className='font-extralight mt-2 md:font-light'>Tick-level data across all instruments</p>
+            <h3 className='text-xl font-light md:text-[1.40rem] md:font-medium lg:text-[1.8rem]'>Transparent price history</h3>
+            <p className='font-extralight mt-2 md:font-light lg:mt-8'>Tick-level data across all instruments</p>
           </div>
           <a href="#" className='text-secondary hover:underline font-extralight md:font-light'>See price history</a>
         </div>
