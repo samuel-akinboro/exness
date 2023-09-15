@@ -1,16 +1,24 @@
+'use client'
+
+import Accounts from '@/components/Accounts'
 import Hero from '@/components/Hero'
 import Navbar from '@/components/Navbar'
 import Services from '@/components/Services'
 import Trade from '@/components/Trade'
-import Image from 'next/image'
+import { useEffect } from 'react'
 
 export default function Home() {
+  useEffect(() => {
+    import('preline')
+  }, [])
+
   return (
     <main className="">
       <Navbar />
       <Hero />
       <Services />
       <Trade />
+      <Accounts />
     </main>
   )
 }
