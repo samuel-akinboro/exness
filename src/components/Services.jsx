@@ -11,15 +11,15 @@ const Services = () => {
       <div className='bg-primary p-4 py-7 text-center sm:px-14 md:py-24'>
         <div>
           <h2 className='text-[1.65rem] font-medium md:text-4xl'>Instant withdrawals, 24/7</h2>
-          <p className='font-light mt-4 mb-6 text-[0.94rem] md:text-base md:w-[46%] md:mx-auto md:mb-10'>Our withdrawals are carried out in seconds with no manual processing, including on weekends.</p>
+          <p className='font-light mt-4 mb-6 text-[0.94rem] md:text-base lg:w-[46%] md:mx-auto md:mb-10'>Our withdrawals are carried out in seconds with no manual processing, including on weekends.</p>
           <a href="#" className='text-secondary hover:underline text-[0.94rem] font-light md:text-base'>Learn more about deposits & withdrawals at Exness</a>
-          <div className='grid grid-cols-2 gap-4 justify-center mt-8 sm:flex sm:items-center md:gap-8 md:mt-12'>
-            <Image src={visaImage} className='w-24 object-contain justify-self-end sm:justify-self-auto md:w-40' />
-            <Image src={masterCardImage} className='w-24 object-contain justify-self-start sm:justify-self-auto md:w-40' />
-            <Image src={skrillImage} className='w-24 object-contain justify-self-end sm:justify-self-auto md:w-40' />
-            <Image src={netellerImage} className='w-24 object-contain justify-self-start sm:justify-self-auto md:w-40' />
+          <div className='grid grid-cols-2 gap-4 justify-center mt-8 sm:flex sm:items-center md:gap-7 lg:gap-8 md:mt-12'>
+            <Image src={visaImage} className='w-24 object-contain justify-self-end sm:justify-self-auto lg:w-40' />
+            <Image src={masterCardImage} className='w-24 object-contain justify-self-start sm:justify-self-auto lg:w-40' />
+            <Image src={skrillImage} className='w-24 object-contain justify-self-end sm:justify-self-auto lg:w-40' />
+            <Image src={netellerImage} className='w-24 object-contain justify-self-start sm:justify-self-auto lg:w-40' />
           </div>
-          <div className='flex flex-col items-center gap-4 mt-6 sm:flex-row sm:mt-7 md:w-[44%] md:gap-6 md:mx-auto md:mt-12'>
+          <div className='flex flex-col items-center gap-4 mt-6 sm:flex-row sm:mt-7 lg:w-[44%] md:gap-6 md:mx-auto md:mt-12'>
             <Image src={pciImage} className='w-20 md:w-28' />
             <p className='text-[#8d9194] text-xs font-light text-left'>We comply with the Payment Card Industry Data Security Standard (PCI DSS) to ensure your security and privacy. We guarantee a protected payment experience for you. <a href="#" className='text-secondary hover:underline'>Learn more.</a></p>
           </div>
