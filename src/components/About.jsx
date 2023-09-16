@@ -18,19 +18,19 @@ const About = () => {
             </span>
           </div>
           <div className='flex items-center gap-1 mt-4'>
-            <a href="#">
+            <a href="https://www.facebook.com/exness/" target='_blank'>
               <Image alt='facebook-logo' src={facebook} className="h-8" />
             </a>
-            <a href="#">
+            <a href="https://twitter.com/exness" target='_blank'>
               <Image alt='twitter-logo' src={twitter} className="h-8" />
             </a>
-            <a href="#">
+            <a href="https://www.instagram.com/exness/" target='_blank'>
               <Image alt='instagram-logo' src={instagram} className="h-8" />
             </a>
-            <a href="#">
+            <a href="https://www.linkedin.com/company/exness/" target='_blank'>
               <Image alt='linkedin-logo' src={linkedin} className="h-8" />
             </a>
-            <a href="#">
+            <a href="https://www.youtube.com/user/EXNESSchannel" target='_blank'>
               <Image alt='youtube-logo' src={youtube} className="h-8" />
             </a>
           </div>
