@@ -8,9 +8,9 @@ const Footer = () => {
         <Image src={pciImage} alt='pci-dss' className='w-[80px] md:w-[100px]' />
         <div className='pt-6 lg:flex lg:items-center lg:justify-between lg:mt-6'>
           <div className='flex flex-col gap-2 pt-4 pb-8 text-left md:flex-row md:gap-4 lg:py-0 lg:gap-6'>
-            <a href="https://www.exness.com/cdn/media/docs/risk_disclosure_and_warning_notice.pdf" className='text-xs text-gray1 hover:underline'>Risk Disclosure</a>
-            <a href="https://www.exness.com/cdn/media/docs/preventing_money_laundering.pdf" className='text-xs text-gray1 hover:underline'>Preventing Money Laundering</a>
-            <a href="https://www.exness.com/cdn/media/docs/privacy_agreement.pdf" className='text-xs text-gray1 hover:underline'>Privacy Agreement</a>
+            <a href="https://www.exness.com/cdn/media/docs/risk_disclosure_and_warning_notice.pdf" className='text-xs text-gray1 hover:underline' target="_blank">Risk Disclosure</a>
+            <a href="https://www.exness.com/cdn/media/docs/preventing_money_laundering.pdf" className='text-xs text-gray1 hover:underline' target="_blank">Preventing Money Laundering</a>
+            <a href="https://www.exness.com/cdn/media/docs/privacy_agreement.pdf" className='text-xs text-gray1 hover:underline' target="_blank">Privacy Agreement</a>
           </div>
           <p className='text-left whitespace-pre-line text-xs text-[#8d9194]'>© 2023 Exness</p>
         </div>
