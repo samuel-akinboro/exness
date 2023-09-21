@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import logo from '../assests/images/ExnessLogoWhite.svg'
 import Image from 'next/image'
 
@@ -21,14 +22,14 @@ const Navbar = () => {
       </div>
 
       {/* mobile collapse menu */}
-      <div id="navbar-collapse-with-animation" class="hs-collapse hidden overflow-hidden transition-all duration-300 basis-full grow sm:block z-50 bg-primary w-full lg:hidden">
-        <div class="flex gap-5 mt-5 items-center justify-center h-[40vh] pb-[5vh] border-b border-secondary flex-col px-4">
-          <a href="#" target="_blank" className="py-3 px-4 inline-flex justify-center items-center gap-2 rounded-md border border-transparent font-medium bg-secondary text-black hover:bg-[#FFD938] transition-all duration-400 w-full">
+      <div id="navbar-collapse-with-animation" className="hs-collapse hidden overflow-hidden transition-all duration-300 basis-full grow sm:block z-50 bg-primary w-full lg:hidden">
+        <div className="flex gap-5 mt-5 items-center justify-center h-[40vh] pb-[5vh] border-b border-secondary flex-col px-4">
+          <Link href="/sign-up" className="py-3 px-4 inline-flex justify-center items-center gap-2 rounded-md border border-transparent font-medium bg-secondary text-black hover:bg-[#FFD938] transition-all duration-400 w-full">
             Open account
-          </a>
-          <a href="#" target="_blank" className="py-3 px-4 inline-flex justify-center items-center gap-2 rounded-md border-secondary border-[0.5px] text-secondary hover:bg-[#2D2D20] transition-all duration-400 min-w-[145px] font-medium w-full">
+          </Link>
+          <Link href="/sign-in" className="py-3 px-4 inline-flex justify-center items-center gap-2 rounded-md border-secondary border-[0.5px] text-secondary hover:bg-[#2D2D20] transition-all duration-400 min-w-[145px] font-medium w-full">
             Sign in
-          </a>
+          </Link>
         </div>
       </div>
 
@@ -41,12 +42,12 @@ const Navbar = () => {
           </span>
         </div>
         <div className='flex items-center gap-x-4'>
-          <a href="#" target="_blank" className="py-3 px-4 inline-flex justify-center items-center gap-2 rounded-md border border-transparent font-medium bg-secondary text-black hover:bg-[#FFD938] transition-all duration-400">
+          <Link href="/sign-up" className="py-3 px-4 inline-flex justify-center items-center gap-2 rounded-md border border-transparent font-medium bg-secondary text-black hover:bg-[#FFD938] transition-all duration-400">
             Open account
-          </a>
-          <a href="#" target="_blank" className="py-3 px-4 inline-flex justify-center items-center gap-2 rounded-md border-secondary border-[0.5px] text-secondary hover:bg-[#2D2D20] transition-all duration-400 min-w-[145px] font-medium">
+          </Link>
+          <Link href="/sign-in" className="py-3 px-4 inline-flex justify-center items-center gap-2 rounded-md border-secondary border-[0.5px] text-secondary hover:bg-[#2D2D20] transition-all duration-400 min-w-[145px] font-medium">
             Sign in
-          </a>
+          </Link>
         </div>
       </div>
     </div>
